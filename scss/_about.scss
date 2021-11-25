@@ -1,0 +1,64 @@
+/**********************************
+                ABOUT**************
+**********************************/
+
+.background {
+    background-size: cover;
+}
+.aboutSection {
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+    height: 80vh;
+    &__headers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .headers__h1 {
+            text-transform: uppercase;
+            font-size: 1.7em;
+        }
+        .headers__h2 {
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+    }
+    &__p {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-column-gap: 20px;
+        .p__text {
+            font-size: 1.0em;
+            font-weight: 500;
+            line-height: 30px;
+            padding-bottom: 20px;
+            text-align: justify;
+        }
+    }
+}
+.about-thirdSection {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    text-align: justify;
+    height: 80vh;
+    &__article {
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+        justify-items: center;
+        .article__h3 {
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .article__p {
+            font-size: 0.9em;
+            font-weight: 500;
+            line-height: 30px;
+            padding-bottom: 20px;
+        }
+    }
+}

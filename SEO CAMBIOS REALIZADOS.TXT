@@ -1,0 +1,33 @@
+AGREGUE LOS SIGUIENTES KEYWORDS EN LAS PAGINAS CORRESPONDIENTES:
+*INDEX: "prs, guitars, signature, amps, instrument, music, rock"
+
+*PRODUCTS: "products, high-end, sound, bass, amplifiers, strings, cabinets"
+
+*ARTISTS: "artists, signature, featured, musicians, players, prs, rockers"
+
+*ABOUT: "craftmanship, acoustic, biography, models, luthier, instruments, guitarists"
+
+*CONTACTO: "support, email, address, guitars, dealers, concerns, prs"
+------------------------------------------------------------------------
+
+MEJORAS IMPLEMENTADAS EN EL SITIO WEB ---- SEO ----------
+
+1)He implementado un title personalizado y unico para cada pagina del sitio, en relacion al contenido principal.
+
+2)Utilizacion de meta="keywords" correspondientes al contenido de cada pagina, precisos y acorde a la busqueda principal del usuario.
+
+3)Utilizacion de meta="description" con un breve resumen que incite al usuario a navegar en el sitio web y a sus distintas paginas.
+
+4)Jerarquizado de etiquetas de acuerdo a la importancia de cada seccion dentro de las paginas. respetando la semantica y el orden en los titulos y encabezados.
+
+5)Implementacion unica de SASS, CSS y HTML para reducir tamaño general del proyecto sin cargarlo de librerias.
+
+6)Flujo de navegacion correcto entre las distintas paginas del sitio a traves de sus <a> links.
+
+7)Archivos de imagenes comprimidas (2 imagenes en products) y uso de urls externas en imagenes para evitar el sobrecargado de archivos dentro del proyecto logrando asi una mejor optimizacion
+
+8)Uso de contenido relevante, reciente y de alta calidad para mejorar las estadisticas y posicionamiento del SEO del sitio web
+
+9)Uso de links internos para un correcto flujo de navegacion dentro de las secciones de la pagina (artists).
+
+10)titulos y subtitulos cursivos, imagenes descritas correctamente empleando el uso de alt="" para promover una buena experiencia de usuario.

@@ -1,0 +1,108 @@
+/*******************************************
+                CONTACTO********************
+*******************************************/
+
+.contact {
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__titles {
+        max-width: 800px;
+        text-align: center;
+        .titles__h1 {
+            font-size: 36px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .titles__h2 {
+            font-weight: 500;
+        }
+    }
+}
+.contacts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    &__box {
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+        .box-icon {
+            min-width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+            background-color: #FACE7F;
+        }
+        .box-text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            flex-direction: column;
+            font-weight: 300;
+            .box-h3 {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+.contactForm {
+    margin-top: 20px;
+    width: 40%;
+    padding: 40px;
+    &__h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    &__inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        .contactForm__input {
+            width: 100%;
+            background-color: #615454b5;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            resize: none;
+        }
+        .contactForm__span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+        .contactForm__submit {
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+            width: 100px;
+        }
+    }
+}
+.contactForm__inputBox input:focus ~ span,
+.contactForm__inputBox input:valid ~ span,
+.contactForm__inputBox textarea:focus ~ span,
+.contactForm__inputBox textarea:valid ~ span {
+    font-size: 12px;
+    transform: translateY(-20px);
+}

@@ -1,0 +1,196 @@
+/*****************************************************************
+            MEDIA QUERIES*****************************************
+*****************************************************************/
+
+/*********** DESKTOP QUERIES - 1024px ********/
+/*****     ESTILOS UNICOS PARA DESKTOP *****/
+
+@media screen and (min-width: 1024px) {
+
+    /**** INDEX AND ARTISTS****/
+    .hoverUp {
+        transition: transform ease 600ms;
+    }
+    .hoverUp:hover {
+        transform: translate(0, -20px);
+    }
+
+    /**** PRODUCTS ****/
+    .productGrow {
+        transition: transform ease 600ms;
+    }
+    .productGrow:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+
+/********TABLET QUERIES- 768px *************/
+
+@media screen and (max-width: 1023px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        &__logo {
+            display: flex;
+            align-self: center;
+        }
+        &__logo-p {
+            display: flex;
+            align-self: center;
+        }
+        &__navList {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    /*************************
+            INDEX*************
+    *************************/
+    .firstSection {
+        display: grid;
+        column-gap: 15px;
+        &__titles {
+            .titles__h2 {
+                font-size: 1.5em;
+            }
+            .titles__p {
+                font-size: 1.0em;
+            }
+        }
+        &__video iframe {
+            width: 280px;
+            height: 300px;
+            border-radius: 20px;
+        }
+    }
+    .secondSection {
+        display: grid;
+        grid-template-rows: 1fr 4fr 1fr;
+        &__divs {
+            display: flex;
+            flex-direction: column;
+            .secondSection__subdivs {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                .subdivs img {
+                    height: 150px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .thirdSection {
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 2fr 4fr;
+        &__container {
+            display: flex;
+            flex-direction: column;
+            .container__p {
+                font-size: 1.0em;
+                .paragraph {
+                    padding-bottom: 5px;
+                }
+            }
+            .container__video iframe {
+                margin-top: 10px;
+                width: 350px;
+                height: 200px;
+            }
+        }
+    }
+
+    /************************************
+                    PRODUCTS*************
+    ************************************/
+    .products {
+        display: grid;
+        grid-template-rows: 10% 90%;
+        height: auto;
+        &__imgBox {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-template-rows: 2fr 2fr 2fr 1fr;
+            row-gap: 15px;
+            .imgBox img {
+                width: 250px;
+                height: 200px;
+            }
+        }
+    }
+
+    /***********************************
+                    ARTISTS*************
+    ***********************************/
+    .artists-thirdSection {
+        display: grid;
+        grid-template-rows: 4fr 4fr;
+    }
+    .accordian {
+        display: grid;
+        overflow: visible;
+        margin: auto;
+        box-shadow: none;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .accordian li {
+        box-shadow: none;
+        border: none;
+        float: none;
+        transition: none;
+        .image_title {
+            background: rgba(0, 0, 0, 0.5);
+            width: 600px;
+        }
+    }
+    .accordian ul {
+        display: grid;
+    }
+    .accordian li img {
+        display: grid;
+        height: 300px;
+        width: 600px;
+    }
+    .section4 {
+        display: grid;
+        grid-template-rows: 5% 4fr;
+        grid-row-gap: 10px;
+        &__boxContainer {
+            display: grid;
+            grid-template-rows: repeat(4, 1fr) ;
+            grid-template-columns: repeat(2, 2fr);
+            grid-row-gap: 20px;
+            .subBox img {
+                height: 200px;
+                width: 200px;
+            }
+        }
+    }
+
+    /**************************
+                ABOUT *********
+    **************************/
+    .aboutSection {
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+    }
+    .about-thirdSection {
+        display: grid;
+        height: auto;
+        &__article {
+            display: grid;
+            grid-template-rows: 1fr 5fr;
+        }
+    }
+
+    /***************************
+                CONTACTS *******
+    ***************************/
+    .contacts-container {
+        width: 600px;
+    }
+}

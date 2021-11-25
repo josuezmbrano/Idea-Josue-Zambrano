@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Alegreya Sans', sans-serif;
+    height: 100vh;
+}
+main {
+    margin: 60px;
+}
+body {
+    background-color: #352f2fb5;
+}
+
+/////////////////////////////////
+//////// NAVIGATION BAR /////////
+/////////////////////////////////
+
+.header {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 70% 30%;
+	top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    &__logo {
+        display: flex;
+        justify-content: left;
+        margin-left: 55px;
+        align-items: center;
+        color: #FACE7F;
+    }
+    &__logo-p {
+        @extend .header__logo;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    &__navList {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+    &__navList a {
+        text-decoration: none;
+        color: #FACE7F;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+}
+
+///////////////////////////////////
+//////////// FOOTER BAR ///////////
+//////////////////////////////////
+.footer {
+    @if 2 + 3 > 4 {
+        background-color: #000000;
+    }
+}
+.navLinks-logo {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    margin-left: 55px;
+    h3 {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 55px;
+        color: #FACE7F;
+    }
+    .footer__navLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        list-style: none;
+    }
+    .footer__navLinks a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        @if 3 == 3 {
+            color: #FACE7F;
+        }
+    }
+}
+.copyright-icons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 50px;
+    align-items: center;
+    p {
+        text-transform: uppercase;
+        font-size: 1.1em;
+        color: #FACE7F;
+    }
+    .icons-bar {
+        i {
+            margin-left: 60px;
+            font-size: 30px;
+            color: #FACE7F;
+        }
+    }
+}
+
+/***********************************
+************************************
+************************************/
