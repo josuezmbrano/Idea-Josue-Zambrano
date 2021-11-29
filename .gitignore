@@ -1,0 +1,5 @@
+# Archivos que se van a ignorar 
+# Carpeta
+
+node_modules
+*.txt
