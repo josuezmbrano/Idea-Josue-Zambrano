@@ -757,7 +757,7 @@ body {
       .section4__boxContainer .subBox {
         margin-bottom: 2.5em; }
       .section4__boxContainer .subBox img {
-        width: 100px;
+        width: 100%;
         height: 300px; }
   /**************************
                 ABOUT *********
