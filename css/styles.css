@@ -744,4 +744,26 @@ body {
         margin-bottom: 2.5em; }
       .section4__boxContainer .subBox img {
         width: 350px;
-        height: 300px; } }
+        height: 300px; }
+  /**************************
+                ABOUT *********
+    **************************/
+  .aboutSection {
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+    .aboutSection__headers {
+      margin-bottom: 3em; }
+      .aboutSection__headers .headers__h1 {
+        font-size: 1.5em; }
+    .aboutSection__p {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3em; }
+  .about-thirdSection {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em; }
+  .about-thirdSection__article {
+    margin-bottom: 2em; } }
