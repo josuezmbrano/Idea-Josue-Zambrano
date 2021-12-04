@@ -295,4 +295,66 @@
             }
         }
     }
+
+    /***********************************
+                    ARTISTS*************
+    ***********************************/
+    .artistsSection {
+        height: 100%;
+        &__links {
+            display: flex;
+            flex-direction: row;
+        }
+        &__links a {
+            font-size: 1em;
+        }
+    }
+    .artists-thirdSection {
+        height: 100%;
+        display: flex;
+    }
+    .accordian {
+        margin-top: none;
+        margin-left: none;
+        margin-bottom: 13em;
+    }
+    .accordian li {
+        box-shadow: none;
+        border: none;
+        float: none;
+        transition: none;
+        .image_title {
+            background: rgba(0, 0, 0, 0.5);
+            width: 340px;
+        }
+    }
+    .accordian li img {
+        display: grid;
+        height: 200px;
+        width: 340px;
+    }
+    .section4 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        &__header {
+            margin-top: 2.5em;
+            margin-bottom: 2.5em;
+            font-size: 1.5em;
+        }
+        &__boxContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            .subBox {
+                margin-bottom: 2.5em;
+            }
+            .subBox img {
+                width: 350px;
+                height: 300px;
+            }
+        }
+    }
 }
