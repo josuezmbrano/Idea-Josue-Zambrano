@@ -312,27 +312,40 @@
     .artists-thirdSection {
         height: 100%;
         display: flex;
+        flex-direction: column;
+        margin-bottom: 10em;
     }
     .accordian {
-        margin-top: none;
-        margin-left: none;
-        margin-bottom: 13em;
+        width: 100%;
+        overflow:none;
+        margin: 3em 0px;
     }
     .accordian li {
-        box-shadow: none;
-        border: none;
-        float: none;
+        position: relative;
+        width: 100%;
+        float:none;
         transition: none;
         .image_title {
             background: rgba(0, 0, 0, 0.5);
-            width: 340px;
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100%;
+        }
+        .image_title a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 16px;
         }
     }
     .accordian li img {
-        display: grid;
+        width: 100%;
         height: 200px;
-        width: 340px;
     }
+    .accordian ul:hover li {width: 100%;}
+    .accordian ul li:hover {width: 100%;}
+
     .section4 {
         height: 100%;
         display: flex;
@@ -352,7 +365,7 @@
                 margin-bottom: 2.5em;
             }
             .subBox img {
-                width: 350px;
+                width: 100%;
                 height: 300px;
             }
         }
