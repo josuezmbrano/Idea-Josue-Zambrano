@@ -268,4 +268,31 @@
             width: 400px;
         }
     }
+
+    /************************************
+                    PRODUCTS*************
+    ************************************/
+    .products {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__h1 {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 3em;
+            font-size: 1.5em;
+        }
+        &__imgBox {
+            display: flex;
+            flex-direction: column;
+            .imgBox {
+                margin-bottom: 2.5em;
+                .imgBox__img {
+                    width: 400px;
+                    height: 350px;
+                }
+            }
+        }
+    }
 }

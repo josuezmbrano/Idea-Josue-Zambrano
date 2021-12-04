@@ -675,4 +675,25 @@ body {
       .thirdSection .container__p .paragraph {
         padding-bottom: 1.5em; }
     .thirdSection .container__video iframe {
-      width: 400px; } }
+      width: 400px; }
+  /************************************
+                    PRODUCTS*************
+    ************************************/
+  .products {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .products__h1 {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 3em;
+      font-size: 1.5em; }
+    .products__imgBox {
+      display: flex;
+      flex-direction: column; }
+      .products__imgBox .imgBox {
+        margin-bottom: 2.5em; }
+        .products__imgBox .imgBox .imgBox__img {
+          width: 400px;
+          height: 350px; } }
