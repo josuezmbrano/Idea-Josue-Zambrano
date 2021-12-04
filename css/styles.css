@@ -766,4 +766,30 @@ body {
     flex-direction: column;
     margin-top: 3em; }
   .about-thirdSection__article {
-    margin-bottom: 2em; } }
+    margin-bottom: 2em; }
+  /***************************
+                CONTACTS *******
+    ***************************/
+  .contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px; }
+    .contact__titles {
+      width: 100%;
+      margin-bottom: 2.5em; }
+      .contact__titles .titles__h1 {
+        margin-bottom: 1em;
+        font-size: 1.5em; }
+      .contact__titles .titles__h2 {
+        text-align: justify;
+        font-size: 1.2em; }
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    width: auto; }
+  .contactInfo {
+    width: 100%; }
+  .contactForm {
+    width: 100%; } }
