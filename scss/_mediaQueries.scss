@@ -25,7 +25,7 @@
 }
 
 
-/********TABLET QUERIES- 768px *************/
+/********TABLET QUERIES - 768px *************/
 
 @media screen and (max-width: 1023px) {
     .header {
@@ -192,5 +192,80 @@
     ***************************/
     .contacts-container {
         width: 600px;
+    }
+}
+
+/********MOBILE QUERIES - 480px *************/
+@media screen and (max-width: 767px) {
+    main {
+        margin: 60px 30px;
+    }
+    /*************************
+            INDEX*************
+    *************************/
+    .firstSection {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        &__titles {
+            padding-bottom: 3em;
+            .titles__h2, .titles__p {
+                margin-bottom: 30px;
+            }
+        }
+        &__video {
+            padding-bottom: 3em;
+        }
+        &__video iframe {
+            width: 400px;
+        }
+    }
+    .secondSection {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        &__headers {
+            display: flex;
+            justify-content: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            .headers__h2 {
+                font-size: 1.5em;
+                text-align: center;
+            }
+        }
+        .secondSection__subdivs {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 2.5em;
+            .subdivs {
+                .subdivs__img {
+                    width: 400px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+    .thirdSection {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__titles {
+            display: flex;
+            justify-content: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            text-align: center;
+        }
+        .container__p  {
+            padding-bottom: 1.5em;
+            .paragraph {
+                padding-bottom: 1.5em;
+            }
+        }
+        .container__video iframe {
+            width: 400px;
+        }
     }
 }
