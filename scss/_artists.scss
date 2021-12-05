@@ -20,13 +20,13 @@
     &__links {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        row-gap: 10px;
         align-items: center;
         list-style: none;
     }
     &__links a {
         text-decoration: none;
-        padding-left: 30px;
         color: #0b0c05;
         font-size: 1.4em;
     }
