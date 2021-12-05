@@ -49,8 +49,10 @@
             INDEX*************
     *************************/
     .firstSection {
+        height: 100%;
         display: grid;
         column-gap: 15px;
+        padding-bottom: 3em;
         &__titles {
             .titles__h2 {
                 font-size: 1.5em;
@@ -60,44 +62,56 @@
             }
         }
         &__video iframe {
-            width: 280px;
+            width: 100%;
             height: 300px;
             border-radius: 20px;
         }
     }
     .secondSection {
         display: grid;
-        grid-template-rows: 1fr 4fr 1fr;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 3em;
+        grid-template-rows: 1fr 4fr;
         &__divs {
             display: flex;
             flex-direction: column;
             .secondSection__subdivs {
                 display: grid;
                 grid-template-columns: 2fr 2fr;
+                column-gap: 15px;
+                padding-bottom: 2.5em;
                 .subdivs img {
-                    height: 150px;
-                    width: 200px;
+                    height: 200px;
+                    width: 300px;
                 }
             }
         }
     }
     .thirdSection {
-        height: 80vh;
+        height: 100%;
+        width: 100%;
         display: grid;
-        grid-template-rows: 2fr 4fr;
+        grid-template-rows: 1fr 4fr;
+        &__titles {
+            margin-top: 3em;
+            margin-bottom: 2.5em;
+        }
         &__container {
             display: flex;
             flex-direction: column;
+            margin-bottom: 2.5em;
             .container__p {
                 font-size: 1.0em;
+                padding-bottom: 1.5em;
                 .paragraph {
-                    padding-bottom: 5px;
+                    padding-bottom: 1.5em;
                 }
             }
             .container__video iframe {
                 margin-top: 10px;
-                width: 350px;
-                height: 200px;
+                width: 500px;
+                height: 300px;
             }
         }
     }
