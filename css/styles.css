@@ -630,15 +630,22 @@ body {
                 ABOUT *********
     **************************/
   .aboutSection {
-    height: auto;
+    height: 100%;
     display: grid;
-    grid-template-rows: 1fr 2fr; }
+    grid-template-rows: 1fr 4fr; }
+    .aboutSection__p {
+      margin-bottom: 2.5em; }
   .about-thirdSection {
-    display: grid;
-    height: auto; }
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 3em; }
     .about-thirdSection__article {
-      display: grid;
-      grid-template-rows: 1fr 5fr; }
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2em; }
+      .about-thirdSection__article .article__h3 {
+        margin-bottom: 2.5em; }
   /***************************
                 CONTACTS *******
     ***************************/
@@ -810,6 +817,8 @@ body {
     margin-top: 3em; }
   .about-thirdSection__article {
     margin-bottom: 2em; }
+    .about-thirdSection__article .article__h3 {
+      margin-bottom: 2.5em; }
   /***************************
                 CONTACTS *******
     ***************************/
