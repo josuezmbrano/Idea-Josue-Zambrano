@@ -196,6 +196,7 @@
 }
 
 /********MOBILE QUERIES - 480px *************/
+
 @media screen and (max-width: 767px) {
     main {
         margin: 60px 30px;
@@ -205,6 +206,7 @@
     *************************/
     .firstSection {
         height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         &__titles {
@@ -217,11 +219,12 @@
             padding-bottom: 3em;
         }
         &__video iframe {
-            width: 400px;
+            width: 100%;
         }
     }
     .secondSection {
         height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         &__headers {
@@ -240,7 +243,7 @@
             padding-bottom: 2.5em;
             .subdivs {
                 .subdivs__img {
-                    width: 400px;
+                    width: 100%;
                     height: 300px;
                 }
             }
@@ -248,6 +251,7 @@
     }
     .thirdSection {
         height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -262,10 +266,11 @@
             padding-bottom: 1.5em;
             .paragraph {
                 padding-bottom: 1.5em;
+                text-align: justify;
             }
         }
         .container__video iframe {
-            width: 400px;
+            width: 100%;
         }
     }
 
