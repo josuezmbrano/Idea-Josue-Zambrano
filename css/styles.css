@@ -566,16 +566,19 @@ body {
     ************************************/
   .products {
     display: grid;
-    grid-template-rows: 10% 90%;
-    height: auto; }
+    grid-template-rows: 1fr 4fr;
+    height: 100%; }
     .products__imgBox {
       display: grid;
       grid-template-columns: 2fr 2fr;
-      grid-template-rows: 2fr 2fr 2fr 1fr;
+      grid-template-rows: 2fr 2fr 2fr;
+      margin-bottom: 3em;
       row-gap: 15px; }
+      .products__imgBox .imgBox {
+        padding-bottom: 2.5em; }
       .products__imgBox .imgBox img {
-        width: 250px;
-        height: 200px; }
+        width: 300px;
+        height: 250px; }
   /***********************************
                     ARTISTS*************
     ***********************************/
