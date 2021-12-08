@@ -85,13 +85,13 @@ body {
 ************************************
 ************************************/
 .firstSection {
+  height: 100%;
+  padding: 3em 0px 6em 0px;
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-template-rows: 350px;
   text-align: center;
   justify-items: center;
-  align-content: center;
-  height: 100%; }
+  align-content: center; }
   .firstSection__titles {
     display: flex;
     flex-direction: column;
@@ -117,9 +117,11 @@ body {
     justify-content: center;
     align-items: center; }
   .firstSection__video iframe {
-    border-radius: 20px; }
+    border-radius: 20px;
+    width: 500px; }
 
 .secondSection {
+  height: 100%;
   display: grid;
   grid-template-rows: 2fr 4fr; }
   .secondSection__headers {
@@ -132,15 +134,17 @@ body {
   .secondSection__divs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
     justify-items: center;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 4em; }
     .secondSection__divs .secondSection__subdivs {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between; }
+      .secondSection__divs .secondSection__subdivs .subdivs .subdivs__img {
+        margin-bottom: 1.5em; }
       .secondSection__divs .secondSection__subdivs .subdivs .subdivs__h3 {
         text-transform: uppercase;
         font-style: italic;
@@ -151,9 +155,9 @@ body {
         font-weight: 500; }
 
 .thirdSection {
+  height: 100%;
   display: grid;
-  grid-template-rows: 30% 70%;
-  height: 70vh; }
+  grid-template-rows: 2fr 4fr; }
   .thirdSection__titles {
     display: flex;
     flex-direction: column;
@@ -168,10 +172,11 @@ body {
       font-size: 1.2em; }
   .thirdSection__container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 2fr 2fr;
     justify-content: space-evenly;
     align-items: center;
-    justify-items: center; }
+    justify-items: center;
+    padding-bottom: 6em; }
     .thirdSection__container .container__p {
       font-size: 1.1em;
       font-weight: 500;
@@ -184,7 +189,8 @@ body {
       justify-content: center;
       align-items: center; }
     .thirdSection__container .container__video iframe {
-      border-radius: 20px; }
+      border-radius: 20px;
+      width: 500px; }
 
 /************************************
                 PRODUCTS*************
