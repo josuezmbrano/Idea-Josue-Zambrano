@@ -251,21 +251,26 @@ body {
     transform: translate(-50%, -50%);
     color: #FACE7F; }
 
-.artistsSection__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  row-gap: 10px;
-  align-items: center;
-  list-style: none; }
+.artistsSection {
+  height: 100%; }
+  .artistsSection__links {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    align-items: center;
+    list-style: none; }
+  .artistsSection__links a {
+    text-decoration: none;
+    color: #0b0c05;
+    font-size: 1.4em; }
+  .artistsSection__links a:hover {
+    color: #FACE7F; }
 
-.artistsSection__links a {
-  text-decoration: none;
-  color: #0b0c05;
-  font-size: 1.4em; }
-
-.artistsSection__links a:hover {
-  color: #FACE7F; }
+.artists-thirdSection {
+  height: 100%;
+  padding-bottom: 3em; }
 
 .accordian {
   width: 80%;
@@ -312,8 +317,9 @@ body {
   width: 640px; }
 
 .section4 {
+  height: 100%;
   display: grid;
-  grid-template-rows: 15% 85%; }
+  grid-template-rows: 2fr 4fr; }
   .section4__header {
     display: flex;
     align-items: center;
@@ -323,17 +329,20 @@ body {
     color: #0b0c05; }
   .section4__boxContainer {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 50px;
     justify-content: space-evenly;
-    justify-items: center; }
-    .section4__boxContainer .subBox .subBox__h3 {
-      text-align: center;
-      text-transform: uppercase;
-      font-style: italic;
-      font-size: 1.2em;
-      color: #2b1415; }
+    justify-items: center;
+    padding-bottom: 3em; }
+    .section4__boxContainer .subBox {
+      padding-bottom: 3em; }
+      .section4__boxContainer .subBox .subBox__h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 1.2em;
+        color: #2b1415; }
 
 /**********************************
                 ABOUT**************

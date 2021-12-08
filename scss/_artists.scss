@@ -17,7 +17,9 @@
     }
 }
 .artistsSection {
+    height: 100%;
     &__links {
+        margin-top: 2.5em;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -33,6 +35,10 @@
     &__links a:hover {
         color: #FACE7F;
     }
+}
+.artists-thirdSection {
+    height: 100%;
+    padding-bottom: 3em;
 }
 .accordian {
 	width: 80%; height: 450px;
@@ -78,8 +84,9 @@
 .accordian ul li:hover {width: 640px;}
 
 .section4 {
+    height: 100%;
     display: grid;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 2fr 4fr;
     &__header {
         display: flex;
         align-items: center;
@@ -90,12 +97,14 @@
     }
     &__boxContainer {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr;
         grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 50px;
         justify-content: space-evenly;
         justify-items: center;
+        padding-bottom: 3em;
         .subBox {
+            padding-bottom: 3em;
             .subBox__h3 {
                 text-align: center;
                 text-transform: uppercase;
