@@ -6,14 +6,15 @@
     background-size: cover;
 }
 .aboutSection {
+    height: 100%;
     display: grid;
-    grid-template-rows: 2fr 5fr;
-    height: 80vh;
+    grid-template-rows: 2fr 4fr;
     &__headers {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        padding-bottom: 3em;
         .headers__h1 {
             text-transform: uppercase;
             font-size: 1.7em;
@@ -28,6 +29,7 @@
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-column-gap: 20px;
+        margin-bottom: 6em;
         .p__text {
             font-size: 1.0em;
             font-weight: 500;
@@ -38,16 +40,17 @@
     }
 }
 .about-thirdSection {
-    margin-top: 20px;
+    height: 100%;
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
     text-align: justify;
-    height: 80vh;
     &__article {
         display: grid;
         grid-template-rows: 1fr 4fr;
         justify-items: center;
+        margin-bottom: 3em;
         .article__h3 {
             text-transform: uppercase;
             font-style: italic;
