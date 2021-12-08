@@ -3,6 +3,7 @@
 *******************************************/
 
 .contact {
+    height: 100%;
     position: relative;
     padding: 50px 100px;
     display: flex;
@@ -12,10 +13,12 @@
     &__titles {
         max-width: 800px;
         text-align: center;
+        margin-bottom: 3em;
         .titles__h1 {
             font-size: 36px;
             font-weight: 500;
             text-transform: uppercase;
+            padding-bottom: 1.5em;
         }
         .titles__h2 {
             font-weight: 500;
@@ -27,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 6em;
 }
 .contactInfo {
     width: 50%;

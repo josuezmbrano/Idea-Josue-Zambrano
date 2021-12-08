@@ -406,6 +406,7 @@ body {
                 CONTACTO********************
 *******************************************/
 .contact {
+  height: 100%;
   position: relative;
   padding: 50px 100px;
   display: flex;
@@ -414,11 +415,13 @@ body {
   flex-direction: column; }
   .contact__titles {
     max-width: 800px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 3em; }
     .contact__titles .titles__h1 {
       font-size: 36px;
       font-weight: 500;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding-bottom: 1.5em; }
     .contact__titles .titles__h2 {
       font-weight: 500; }
 
@@ -426,7 +429,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 6em; }
 
 .contactInfo {
   width: 50%;
